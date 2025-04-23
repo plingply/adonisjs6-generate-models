@@ -1,7 +1,7 @@
 {
   "name": "adonisjs6-generate-models",
   "description": "Generate Lucid Models from an existing database schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "node": ">=20.6.0"
   },
