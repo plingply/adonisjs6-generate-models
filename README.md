@@ -51,6 +51,7 @@ Right now we only offer one command, and that is the `generate:models` command.
 
 ```shell
 node ace generate:models
+node ace generate:models [tableName]
 ```
 
 This will generate your models and plop them at the location defined within your `adonisrc.ts` file, which is `app/models` by default.
