@@ -18,6 +18,6 @@ export async function configure(command: ConfigureCommand) {
   const codemods = await command.createCodemods()
 
   await codemods.updateRcFile((rcFile) => {
-    rcFile.addCommand('@adocasts.com/generate-models/commands')
+    rcFile.addCommand('adonisjs6-generate-models/commands')
   })
 }
