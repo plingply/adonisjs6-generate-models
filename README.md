@@ -1,4 +1,4 @@
-# @adocasts.com/generate-models
+# adonisjs6-generate-models
 
 > Generate Lucid Models from an existing database
 
@@ -30,7 +30,7 @@ Right now, we only have database type to TypeScript type mappings defined for My
 You can easily install and configure via the Ace CLI's `add` command.
 
 ```shell
-node ace add @adocasts.com/generate-models
+node ace add adonisjs6-generate-models
 ```
 
 ##### Manual Install & Configure
@@ -38,11 +38,11 @@ node ace add @adocasts.com/generate-models
 You can also manually install and configure if you'd prefer
 
 ```shell
-npm install @adocasts.com/generate-models
+npm install adonisjs6-generate-models
 ```
 
 ```shell
-node ace configure @adocasts.com/generate-models
+node ace configure adonisjs6-generate-models
 ```
 
 ## Generate Models Command
@@ -57,8 +57,8 @@ node ace generate:models [tableName]
 This will generate your models and plop them at the location defined within your `adonisrc.ts` file, which is `app/models` by default.
 If any of the models already exist in your project, those models will be skipped and will **not** be replaced.
 
-[npm-image]: https://img.shields.io/npm/v/@adocasts.com/generate-models/latest.svg?style=for-the-badge&logo=npm
-[npm-url]: https://www.npmjs.com/package/@adocasts.com/generate-models/v/latest 'npm'
+[npm-image]: https://img.shields.io/npm/v/adonisjs6-generate-models/latest.svg?style=for-the-badge&logo=npm
+[npm-url]: https://www.npmjs.com/package/adonisjs6-generate-models/v/latest 'npm'
 [typescript-image]: https://img.shields.io/badge/Typescript-294E80.svg?style=for-the-badge&logo=typescript
 [license-url]: LICENSE.md
 [license-image]: https://img.shields.io/github/license/adocasts/generate-models?style=for-the-badge
